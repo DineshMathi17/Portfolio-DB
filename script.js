@@ -45,19 +45,7 @@ function type() {
 
 type();
 
-// Course name board
-const words = [
-  "Full Stack Developer",
-];
-let currentWordIndex = 0;
-const paragraphElement = document.getElementById("course");
 
-function updateParagraph() {
-  paragraphElement.innerText = words[currentWordIndex];
-  currentWordIndex = (currentWordIndex + 1) % words.length;
-}
-
-setInterval(updateParagraph, 1000);
 
 
 
